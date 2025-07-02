@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+    "email": { "type": "string" },
+    "num": { "type": "integer" },
+    "m": { "type": "string" },
+    "doi": { "type": "string" }
+    
+  },
+  "required": ["email", "num", "m", "doi"]
+}

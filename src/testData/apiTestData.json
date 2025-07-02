@@ -1,0 +1,80 @@
+{
+  "accessToken": {
+    "urlEncodedBody": {
+      "grant_type": "client_credentials",
+      "client_id": "EngagementFactory",
+      "client_secret": "2aff380e1b4848f0ee1588b49726b1aa89d221121680ffe8f2bbb7b57b3f7fa0",
+      "scope": "NA"
+    }
+  },
+  "accessTokenForAuthentication": {
+    "urlEncodedBody": {
+      "grant_type": "client_credentials",
+      "client_id": "EngagementFactory",
+      "client_secret": "2aff380e1b4848f0ee1588b49726b1aa89d221121680ffe8f2bbb7b57b3f7fa0",
+      "scope": "NA"
+    }
+  },
+  "getUser": {
+    "queryParams": {
+      "email": "s_ritter@acs.org",
+      "num": "10" 
+    
+    }
+  },
+  
+  "tc03_get": 
+  {
+    "email": "s_ritters@acs.org",
+      "num": "10"
+     
+    },
+
+   "tc_01_POST_Request": {
+    "email": "s_ritter@acs.org",
+      "num": "10"
+      },
+    
+    
+  
+   "tc_07_POST_Request": {
+    "queryParams": {
+      "email": "s_ritter@acs.org",
+      "num": "10" ,
+      "m": "RRCC.modelB.24m.5"
+    
+    }
+  },
+     "tc_08_POST_Request": {
+    "queryParams": {
+      "email": "s_ritter@acs.org",
+      "num": "10" ,
+      "m": "RRCC.modelD.24m.5"
+    
+    }
+  },
+   "tc_12_SIM_Doi": {
+    "queryParams": {
+      "doi": "10.1021/acs.joc.4c01369",
+      "num": "5" 
+        
+    }
+  },
+
+  "tc_11_SIM_Doi": {
+    "queryParams": {
+      "doi": "10.121/acs.joc.748",
+      "num": "5" 
+     
+    
+    }
+  },
+  "tc_14_SIM_Doi": {
+    "queryParams": {
+      "doi": "10.1021/acs.joc.4c02421",
+      "num": "10" 
+     
+    
+    }
+  }
+}
